@@ -1,0 +1,250 @@
+
+header{
+  position: fixed;
+  
+
+  width: 100%;
+ 
+  z-index: 1;
+}
+#home-section{
+   padding: 60px;
+}
+img{
+  border-radius:6%;
+}
+
+
+
+
+
+.form-control:focus {
+  border-color: #1a1b2b !important;
+  box-shadow: 0 0 15px rgb(204, 204, 212) !important;
+}
+.btn:focus{
+  border-color: #1a1b2b !important;
+  box-shadow:0 0 15px rgb(208, 208, 215) !important;
+}
+
+.na2{
+  color:#fff;
+  
+  position: relative;
+}
+.na2::after{
+  content:"";
+  width:0;
+  max-width: 65px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  transition: 0.3s;
+  bottom: 3px;
+}
+li{
+  padding: 10px;
+}
+
+.na1{
+  color:#fff;
+  
+  position: relative;
+}
+.na1::after{
+  content:"";
+  width:0;
+  max-width: 65px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  
+  bottom: 3px;
+  transition: 0.3s;
+}
+
+.na5{
+  color:#fff;
+  
+  position: relative;
+}
+.na5::after{
+  content:"";
+  width:0;
+  max-width: 65px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  transition: 0.3s;
+  bottom: 3px;
+}
+
+.na4{
+  color:#fff;
+  
+  position: relative;
+}
+.na4::after{
+  content:"";
+  width:0;
+  max-width: 65px;
+  height: 3px;
+  background-color:red;
+  position: absolute;
+  left: 0px;
+  transition: 0.3s;
+  bottom: 3px;
+}
+
+.na3{
+  color:#fff;
+  
+  position: relative;
+}
+.na3::after{
+  content:"";
+  width:0;
+  max-width: 65px;
+  height: 3px;
+  background-color:red;
+  position: absolute;
+  left: 0px;
+  transition: 0.3s;
+  bottom: 3px;
+}
+.na1:hover::after,.na2:hover::after,.na3:hover::after,.na4:hover::after,.na5:hover::after{
+  width: 100%;
+}
+nav a:focus{
+  color: red !important;
+}
+
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition:transform 0.5s ;
+
+}
+.layer{
+  transition: height 0.5s;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6),#343a40);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+ color: white;
+}
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.layer a{
+  margin-top:20px;
+color:#9a0534;
+text-decoration: none;
+font-size: 18px;
+line-height: 60px;
+background: white;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+text-align: center;
+
+}
+.work:hover img{
+  transform: scale(1.1);
+
+}
+.work:hover .layer{
+  height: 100%;
+}
+#myPHOTO{
+  
+   
+    padding-top: 40px;
+    width: 70%;
+    text-align: center;
+    align-self: auto;
+    overflow: hidden;
+    transition: transform 0.5s;
+    border-radius: 50%;
+    /* display: block; */
+    align-items: center;
+}
+
+#myPHOTO:hover{
+
+  transform: scale(1.1);
+}
+.photodiv{
+ 
+  border-radius: 10px;
+  position: relative;
+  
+  
+  
+}
+
+.html{
+  color: orange;
+  font-size: 45px;
+}
+.css{
+  color: blue;
+  font-size: 45px;
+}
+.js{
+  color: yellow;
+  font-size: 45px;
+}
+.insta{
+  border-radius: 50%;
+  color: rgb(168, 15, 41);
+  font-size: 25px;
+}
+.teligram{
+  border-radius: 50%;
+  font-size: 25px;
+  color:  rgb(76, 173, 242);
+}
+.fb{
+  border-radius: 50%;
+  
+  font-size: 25px;
+}
+.icon{
+  width: 200px;
+  height: 40px;
+  display:flex;
+  justify-content: space-around;
+}
+.insta:hover,.fb:hover,.teligram:hover{
+  box-shadow:0 0 15px rgb(208, 208, 215) !important;
+}
+
+
